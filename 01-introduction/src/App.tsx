@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
-import Dashboard from "@/components/dashboard-01";
 import "./App.css";
-
+import { RadioGroupDemo } from "@/components/ui/radio-group-demo"
 function App() {
   return (
     <>
-      <Dashboard />
+      <RadioGroupDemo />
       <Button>Click me</Button>
     </>
   );
